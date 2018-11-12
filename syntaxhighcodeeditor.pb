@@ -420,7 +420,7 @@ Procedure   editor_dataset__add( *this.editor_dataset_body, value.s, intvalue.i 
   ; ***
   PokeL( *this\atr + p, intvalue )
   ; ***
-  p = MemorySize(*this\org) - 5
+  p = MemorySize(*this\org) - 3
   ; ***
   Select mode
     Case 0
